@@ -13,7 +13,6 @@ Clicking the below button will open up an Azure Portal where the deployment ARM 
 graph LR
 A --> B;
 B --> C;
-C --> A;
 ```
 
 
