@@ -11,7 +11,7 @@ Clicking the below button will open up an Azure Portal where the deployment ARM 
 
 ```mermaid
 graph LR
-"Work Shop" --> OnboardSentinelHere;
+'Work Shop' --> OnboardSentinelHere;
 OnboardSentinelHere --> AdviseTarianCyber;
 AdviseTarianCyber --> PostOnboardingTasks;
 ```
