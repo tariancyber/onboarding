@@ -12,9 +12,9 @@ Clicking the below button will open up an Azure Portal where the deployment ARM 
 ```mermaid
 graph TD;
     A-->B;
-    A-->C;
-    B-->D;
+    B-->C;
     C-->D;
+    D-->A;
 ```
 
 ### Please do not action the below unless you have already been in contact with Tarian Cyber and have the greenlight to onboard. 
