@@ -10,10 +10,15 @@ Welcome to the Tarian Cyber, one-click deployment of Azure Lighthouse to manage 
 Clicking the below button will open up an Azure Portal where the deployment ARM template can be used to set up delegation, requiring only the resourceGroup name that Sentinel is held in (you must be signed into the proposed delegated tenant).
 
 ```mermaid
-graph LR
-'Work Shop' --> OnboardSentinelHere;
-OnboardSentinelHere --> AdviseTarianCyber;
-AdviseTarianCyber --> PostOnboardingTasks;
+sequenceDiagram
+    Tarian->>Client: Conduct Onboarding Workshop
+    Note over Client,Tarian: Client Tasks Start
+    Client-->>Tarian: Advise Onboarding Ready
+    Client-->>Tarian: Run Onboarding Process
+    Client-->>Tarian: Advise Completed 
+    Note over Client,Tarian: Client Tasks Completed
+    Tarian->>Client: Post Onboarding Tasks
+    Tarian->>Client: Production Ready 
 ```
 ### Please do not action the below unless you have already been in contact with Tarian Cyber and have the greenlight to onboard. 
 
