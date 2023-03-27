@@ -9,16 +9,12 @@ Welcome to the Tarian Cyber, one-click deployment of Azure Lighthouse to manage 
 
 Clicking the below button will open up an Azure Portal where the deployment ARM template can be used to set up delegation, requiring only the resourceGroup name that Sentinel is held in (you must be signed into the proposed delegated tenant).
 
-```gitGraph
-       commit
-       commit
-       branch develop
-       commit
-       commit
-       commit
-       checkout main
-       commit
-       commit
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
 ```
 
 ### Please do not action the below unless you have already been in contact with Tarian Cyber and have the greenlight to onboard. 
