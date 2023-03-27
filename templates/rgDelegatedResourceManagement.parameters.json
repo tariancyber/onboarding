@@ -1,0 +1,32 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "mspOfferName": {
+      "value": "Tarian Managed Sentinel"
+    },
+    "rgName": {
+      "value": "CLIENT RG NAME HERE"
+    },
+    "mspOfferDescription": {
+      "value": "Tarian Managed Sentinel"
+    },
+    "managedByTenantId": {
+      "value": "e7537c7e-8a22-4bee-be3f-b63ef02a8b8b"
+    },
+    "authorizations": {
+      "value": [
+        {
+          "principalId": "84fe90ac-a568-443b-a819-ecb079555400",
+          "roleDefinitionId": "3e150937-b8fe-4cfb-8069-0eaf05ecd056",
+          "principalIdDisplayName": "MSS-Sentinel-Analysts"
+        },
+        {
+          "principalId": "9f7816e9-2082-4482-89b0-e9510eb0c4c5",
+          "roleDefinitionId": "ab8e14d6-4a74-4a29-9ba8-549422addade",
+          "principalIdDisplayName": "MSS-Sentinel-Engineers"
+        }
+      ]
+    }
+  }
+}
