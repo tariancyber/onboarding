@@ -11,10 +11,10 @@ Clicking the below button will open up an Azure Portal where the deployment ARM 
 
 ```mermaid
 graph LR
-A --> B;
-B --> C;
+Work Shop --> Onboard Sentinel Here;
+Onboard Sentinel Here --> Advise Tarian Cyber;
+Advise Tarian Cyber --> Post Onboarding Tasks;
 ```
-
 
 ### Please do not action the below unless you have already been in contact with Tarian Cyber and have the greenlight to onboard. 
 
