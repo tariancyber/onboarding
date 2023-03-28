@@ -22,7 +22,7 @@ sequenceDiagram
 ```
 ### Please do not action the below unless you have already been in contact with Tarian Cyber and have the greenlight to onboard. 
 
-[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Ftarianj%2Fdeploymenttest%2Fmain%2Ftemplates%2FrgDelegatedResourceManagement.json)
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Ftariancyber%2Fonboarding%2Fmain%2Ftemplates%2FrgDelegatedResourceManagement.json)
 
 
 ## If Microsoft Sentinel does not exist in your environment - please contact your Tarian Cyber engineer for deployment assistance. 
