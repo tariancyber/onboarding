@@ -36,6 +36,11 @@
         },
         {
           "principalId": "9f7816e9-2082-4482-89b0-e9510eb0c4c5",
+          "roleDefinitionId": "91c1777a-f3dc-4fae-b103-61d183457e46",
+          "principalIdDisplayName": "MSS-Sentinel-Engineers"
+        },
+        {
+          "principalId": "9f7816e9-2082-4482-89b0-e9510eb0c4c5",
           "roleDefinitionId": "ab8e14d6-4a74-4a29-9ba8-549422addade",
           "principalIdDisplayName": "MSS-Sentinel-Engineers"
         }
